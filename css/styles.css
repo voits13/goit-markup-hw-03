@@ -45,11 +45,10 @@
 }
 
 .container {
-    /* outline: 2px solid red;
+   /* outline: 2px solid red;
     outline-offset: -2px; */
 
     width: 1158px;
-    padding: 120px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -111,9 +110,6 @@
     border: none;
 }
 
-.img{
-    display: block;
-}
 
     /* Header section */
 
@@ -200,7 +196,9 @@
     /* Hero section */
 
 .hero{
+    padding: 188px 0px;
     background-color: var(--dark-bg-cl);
+
 }
 
 .hero-title {
@@ -238,6 +236,9 @@
 }
 
     /* Feature section */
+.feature{
+    padding: 120px 0px;
+}
 
 .feature-list {
     display: flex;
@@ -245,33 +246,43 @@
 }
 
 .feature-list .feature-item + .feature-item{
-        margin-left: 24px;
+    margin-left: 24px;
 }
 
 .features-title{
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.features-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
     /* Img section */
 
 .section-img {
-    padding-top: 0;
+    padding: 120px 0px;
+    padding-top: 0px;
 }
 
 .what-doing{
-    display: flex;
-    flex-wrap: wrap;
-
-    margin-top: 72px;
+display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
 }
 
-.what-doing .img-item + .img-item{
-    margin-left: 24px;
+.img {
+    display: block;
 }
 
     /* Team Card section */
 .team-card {
-
+    padding: 120px 0px;
     background: var(--light-bg-cl);
 }
 
@@ -301,7 +312,7 @@
 }
 
 .team-title{
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
     /* Footer section */
 
@@ -309,9 +320,6 @@
 
     color: var(--accent-txt-cl);
     background-color: var(--dark-bg-cl);
-}
-
-.footer-container{
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -330,6 +338,11 @@
 
 
         /* Portfolio */
+
+.portfolio{
+    padding: 120px 0px;
+}
+
 
     /* Button of filter */
 
@@ -361,15 +374,10 @@
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-    margin: -12px;
+    gap: 48px 24px;
 
 }
 
-.projects-item{
-
-    width: calc((100% - 6*12)/3);
-    margin: 12px;
-}
 
 .portfolio-wrapper{
     padding-top: 32px;
