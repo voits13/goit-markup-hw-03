@@ -276,8 +276,8 @@ display: flex;
     gap: 24px;
 }
 
-.img {
-    display: block;
+.imgs {
+    display:block;
 }
 
     /* Team Card section */
@@ -389,5 +389,5 @@ display: flex;
 }
 
 .portfolio-title{
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
